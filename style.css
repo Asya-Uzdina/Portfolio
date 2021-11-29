@@ -134,7 +134,7 @@ p{
     height: auto;
 }
 .shot_container{
-    padding-right: 2vw;
+    padding-right: 1.5vw;
 }
 #tutor{
     width: 39vw;
@@ -160,7 +160,7 @@ p{
     display: flex;
     justify-content: space-between;
     background-color: #141414;
-    padding: 40px 100px 40px 100px;
+    padding: 40px 6% 40px 6%;
     align-items: center;
 }
 .socials_footer{
@@ -308,7 +308,7 @@ p{
         width: 85vw;
     }
     .footer{
-        padding: 40px 20px;
+        padding: 40px 7%;
     }
     
 }
