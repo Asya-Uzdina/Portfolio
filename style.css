@@ -1,0 +1,315 @@
+ul {
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0;
+}
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+#main_title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 100%;
+    width: 402px;
+    animation-duration: 1s;
+    margin-top: 0px;
+    }
+#main_img{
+    /* width: 28vw; */
+    width: 485px;
+    height: auto;
+    animation-duration: 2s;
+}
+#main_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+#descr_main{
+    max-width: 470px;
+    margin-left: 20px;
+}
+#contacts{
+    text-align: right;
+}
+.socials{
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #141414;
+    margin-top: 16px;
+}
+.socials:hover{
+    font-style: italic;
+}
+.right_block_main{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+    height: 100%;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+}
+#logo_main{
+    display: flex;
+    justify-content: flex-end;
+}
+#position {
+    font-family: Arsenal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+}
+#logo, #position, #descr_main, #contacts{
+    animation-delay: 0.5s;
+    animation-duration: 1.5s;
+}
+#logo_main, #position, #descr_main{
+    margin-bottom: 184px;
+}
+.text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 4px;
+}
+.main_subtitle{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 100%;
+}
+.block_projects{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    margin-bottom: 60px;
+}
+.third_row{
+    display: flex;
+    justify-content: space-between;
+}
+.container_img_work{
+    display: inline-flex;
+    align-content: center;
+    overflow: hidden;  
+}
+#ziferblat{
+    display: inline;
+    width: 70vw;
+    height: auto;
+    font-size:0px;
+    line-height: 0px;
+}
+#zoohotel{
+    width: 80vw;
+    height: auto;
+}
+#shot{
+    display: block;
+    width: 45vw;
+    height: auto;
+}
+.shot_container{
+    padding-right: 2vw;
+}
+#tutor{
+    width: 39vw;
+    height: auto;
+}
+#ziferblat, #zoohotel, #shot, #tutor {
+    transition: transform .4s;
+}
+#ziferblat:hover, #zoohotel:hover, #shot:hover, #tutor:hover {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+.namework{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+    padding: 40px 100px 40px 100px;
+    align-items: center;
+}
+.socials_footer{
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBEBEB;
+    margin-bottom: 16px;
+}
+.socials_footer:hover{
+    font-style: italic;
+}
+.wrapper{
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 60px;
+    background-color: #EBEBEB;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-top: 80px;
+}
+#mob_wrapper{
+    display: none;
+}
+
+/* animation start */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+    transition-delay: 100ms;
+}
+.fade-in.appear {
+    opacity: 1;
+  }
+.from_bottom {
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    transition: opacity 250ms ease-in, -webkit-transform 300ms ease-in;
+    transition: opacity 250ms ease-in, transform 300ms ease-in;
+    transition: opacity 250ms ease-in, transform 300ms ease-in, -webkit-transform 400ms ease-in;
+    opacity: 0;
+}
+.from_bottom.appear{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    /* overflow: hidden; */
+}
+
+/* animation end */
+
+
+@media (max-width: 1024px){
+    #main_title{
+        font-size: 72px;
+        margin-top: 0px;
+    }
+    #main_img{
+        width: 390px;
+    }
+    #descr_main{
+        max-width: 400px;
+    }
+    #logo_main, #position, #descr_main{
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+     display: none;
+    }
+    #mob_wrapper{
+        background-color: #EBEBEB;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+    #main_block{
+        display:none;
+    }
+    .title_logo{
+        display: flex;
+        /* flex-direction: ; */
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    #mob_logo_main{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #mob_main_title{
+        width: 200px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        font-size: 10vw;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 100%;
+    }
+    .mob_logo, .logo{
+        width: 12vw;
+    }
+    #position{
+        margin-bottom: 32px;
+        text-align: left;
+    }
+    #main_img{
+        width: 85vw;
+        margin-bottom: 24px;
+    }
+    #descr_main {
+        margin-left: 0px;
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+    .main_subtitle{
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 9.5vw;
+        text-align: center;
+    }
+    #block_projects{
+        justify-content: center;
+    }
+    .project{
+        align-self: center;
+        margin-bottom: 32px;
+    }
+    #ziferblat, #zoohotel, #shot, #tutor {
+        width: 85vw;
+    }
+    #shot{
+        margin-right: 0px;
+    }
+    .work_descr_container{
+        margin-right: 0px;
+        width: 85vw;
+    }
+    .footer{
+        padding: 40px 20px;
+    }
+    
+}
