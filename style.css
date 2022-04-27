@@ -1,3 +1,6 @@
+body{
+    margin:0px;
+}
 ul {
     list-style-type: none;
     margin-block-start: 0px;
@@ -133,7 +136,10 @@ p{
     width: 45vw;
     height: auto;
 }
-.shot_container{
+.shot_container {
+    padding-right: 10vw;
+}
+.tut_container{
     padding-right: 2vw;
 }
 #tutor{
@@ -160,7 +166,10 @@ p{
     display: flex;
     justify-content: space-between;
     background-color: #141414;
-    padding: 40px 100px 40px 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     align-items: center;
 }
 .socials_footer{
@@ -179,8 +188,8 @@ p{
 .wrapper{
     /* padding-left: 100px;
     padding-right: 100px; */
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-bottom: 60px;
     background-color: #EBEBEB;
     overflow-y: scroll;
@@ -241,7 +250,6 @@ p{
     }
     #mob_wrapper{
         background-color: #EBEBEB;
-        border-color: #141414;
         display: block;
         padding-left: 20px;
         padding-right: 20px;
@@ -310,7 +318,7 @@ p{
         width: 85vw;
     }
     .footer{
-        padding: 40px 20px;
+        padding: 40px 40px;
     }
     
 }
