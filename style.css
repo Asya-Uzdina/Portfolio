@@ -241,6 +241,7 @@ p{
     }
     #mob_wrapper{
         background-color: #EBEBEB;
+        border-color: #141414;
         display: block;
         padding-left: 20px;
         padding-right: 20px;
