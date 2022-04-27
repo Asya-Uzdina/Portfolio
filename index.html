@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asya Uzdina Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="main_block">
+            <div class="left_block_main">
+                <h1 class="animate__animated animate__fadeIn " id="main_title">АСЯ УЗДИНА</h1>
+                <img class="animate__animated animate__fadeIn" id="main_img" src="Images/Asya.png" alt="My photo">
+            </div>
+            <div class="right_block_main">
+                <div class="animate__animated animate__fadeIn" id="logo_main">
+                    <img class="logo" src="Images/logo.svg" alt="logo">
+                </div>
+                <p class="animate__animated animate__fadeInUp" id="position">Junior UX/UI Designer</p>
+                <div class="animate__animated animate__fadeInUp" id="descr_main">
+                    <p class="text">Дизайн для меня — это идеальный способ совместить мои технические навыки и
+                        реализовать творческий потенциал. В самом процессе мне нравится решать задачу по улучшению
+                        пользовательского опыта, чтобы взаимодействие с интерфейсом было приятным и удобным.</p>
+                    <!-- <p class="text">На данный момент завершила обучение в онлайн-университете GeekBrains по направлению
+                        Веб-дизайн.</p> -->
+                </div>
+                <ul class="animate__animated animate__fadeInUp" id="contacts">
+                    <li><a class="socials" href="https://vk.com/id_asya_uzd" target="blank">vk</a></li>
+                    <li><a class="socials" href="https://www.instagram.com/a.siri.s/" target="blank">inst</a></li>
+                    <li><a class="socials" href="https://t.me/asya_uzdina" target="blank">telegram</a></li>
+                    <li><a class="socials" href="tel: +79992391245">+7 (999) 239-12 45</a></li>
+                    <li><a class="socials" href="mailto:a-uzdina@yandex.ru" target="blank">a-uzdina@yandex.ru</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block_projects">
+            <h2 class="main_subtitle fade-in">Мои проекты</h2>
+            <div class="project">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="https://www.behance.net/gallery/131421303/redizajn-sajta-pod-kovorking" target="blank">
+                        <img id="ziferblat" src="Images/ziferblat.png" alt="Ziferblat">
+                    </a>
+                </div>
+                <p class="namework fade-in">ЦИФЕРБЛАТ</p>
+                <p class="text fade-in">Сеть антикафе в разных городах и странах</p>
+                <p class="text fade-in">Задача — спроектировать и отрисовать интерфейс сайта коворкинга на базе
+                    существующего
+                    тайм-кафе</p>
+            </div>
+            <div class="project">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="https://www.behance.net/gallery/131549361/zoogostinica-koshkin-dom" target="blank">
+                        <img id="zoohotel" src="Images/zoohotel.png" alt="Zoohotel"></a>
+                </div>
+                <p class="namework fade-in">КОШКИН ДОМ</p>
+                <p class="text fade-in">Место, где можно оставить котика на передержку</p>
+                <p class="text fade-in">Задача — спроектировать и отрисовать интерфейс сайта зоогостиницы</p>
+            </div>
+            <div class="third_row">
+                <div class="project shot">
+                    <div class="container_img_work slide-in from_bottom">
+                        <a href="https://www.youtube.com/watch?v=4ciRq45hBdA" target="_blank">
+                            <img id="shot" src="Images/shot.png" alt="ShotProductions"></a>
+                    </div>
+                    <p class="namework shot_container fade-in">SHOT PRODUCTIONS</p>
+                    <p class="text shot_container fade-in">Фотостудия в Испании, есть готовый лендинг</p>
+                    <p class="text shot_container fade-in">Задача — анимировать появление элементов при скролле и
+                        взаимодействие
+                        с некоторыми
+                        блоками с
+                        помощью After Effects</p>
+                </div>
+                <div class="project">
+                    <div class="container_img_work slide-in from_bottom">
+                        <a href="http://asyauzdina.tilda.ws/" target="_blank">
+                            <img id="tutor" src="Images/tutor.png" alt="Asya Tutor"></a>
+                    </div>
+                    <p class="namework fade-in">АСЯ УЗДИНА</p>
+                    <p class="text fade-in">Репетитор по математике онлайн для школьников 5-11 классов</p>
+                    <p class="text fade-in">Задача — отрисовать интерфейс сайта и сверстать его на конструкторе Tilda с
+                        помощью
+                        зеро-блоков</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mob_wrapper">
+        <div class="title_logo">
+            <h1 class="animate__animated animate__fadeIn " id="mob_main_title">АСЯ УЗДИНА</h1>
+            <div class="animate__animated animate__fadeIn" id="mob_logo_main">
+                <img class="mob_logo" src="Images/logo.svg" alt="logo">
+            </div>
+        </div>
+        <p class="animate__animated animate__fadeInUp" id="position">Junior UX/UI Designer</p>
+        <img class="animate__animated animate__fadeIn" id="main_img" src="Images/Asya.png" alt="My photo">
+        <div class="animate__animated animate__fadeInUp" id="descr_main">
+            <p class="text">Дизайн для меня — это идеальный способ совместить мои технические навыки и
+                реализовать творческий потенциал. Мне нравится решать задачу по улучшению пользовательского
+                опыта, чтобы взаимодействие с интерфейсом было приятным и удобным.</p>
+            <p class="text">На данный момент завершила обучение в онлайн-университете GeekBrains по направлению
+                Веб-дизайн.
+        </div>
+        <ul class="animate__animated animate__fadeInUp" id="contacts">
+            <li><a class="socials" href="https://vk.com/id_asya_uzd">vk</a></li>
+            <li><a class="socials" href="https://www.instagram.com/a.siri.s/">inst</a></li>
+            <li><a class="socials" href="https://t.me/asya_uzdina">telegram</a></li>
+            <li><a class="socials" href="tel: +79992391245">+7 (999) 239-12 45</a></li>
+            <li><a class="socials" href="mailto:a-uzdina@yandex.ru">a-uzdina@yandex.ru</a></li>
+        </ul>
+        <div class="block_projects">
+            <h2 class="main_subtitle fade-in">Мои проекты</h2>
+            <div class="project">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="https://www.behance.net/gallery/131421303/redizajn-sajta-pod-kovorking" target="blank">
+                        <img id="ziferblat" src="Images/ziferblat.png" alt="Ziferblat">
+                    </a>
+                </div>
+                <p class="namework work_descr_container fade-in">ЦИФЕРБЛАТ</p>
+                <p class="text work_descr_container fade-in">Сеть антикафе в разных городах и странах</p>
+                <p class="text work_descr_container fade-in">Задача — спроектировать и отрисовать интерфейс сайта
+                    коворкинга на
+                    базе существующего
+                    тайм-кафе</p>
+            </div>
+            <div class="project">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="https://www.behance.net/gallery/131549361/zoogostinica-koshkin-dom" target="blank">
+                        <img id="zoohotel" src="Images/zoohotel.png" alt="Zoohotel"></a>
+                </div>
+                <p class="namework work_descr_container fade-in">КОШКИН ДОМ</p>
+                <p class="text work_descr_container fade-in">Место, где можно оставить котика на передержку</p>
+                <p class="text work_descr_container fade-in">Задача — спроектировать и отрисовать интерфейс сайта
+                    зоогостиницы
+                </p>
+            </div>
+            <div class="project shot">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="https://www.youtube.com/watch?v=4ciRq45hBdA" target="_blank">
+                        <img id="shot" src="Images/shot.png" alt="ShotProductions"></a>
+                </div>
+                <p class="namework work_descr_container fade-in">SHOT PRODUCTIONS</p>
+                <p class="text work_descr_container fade-in">Фотостудия в Испании, есть готовый лендинг</p>
+                <p class="text work_descr_container fade-in">Задача — анимировать появление элементов при скролле и
+                    взаимодействие
+                    с некоторыми
+                    блоками с
+                    помощью After Effects</p>
+            </div>
+            <div class="project">
+                <div class="container_img_work slide-in from_bottom">
+                    <a href="http://asyauzdina.tilda.ws/" target="_blank">
+                        <img id="tutor" src="Images/tutor.png" alt="Asya Tutor"></a>
+                </div>
+                <p class="namework work_descr_container">АСЯ УЗДИНА</p>
+                <p class="text work_descr_container fade-in">Репетитор по математике онлайн для школьников 5-11 классов
+                </p>
+                <p class="text work_descr_container fade-in">Задача — отрисовать интерфейс сайта и сверстать его на
+                    конструкторе
+                    Tilda с помощью
+                    зеро-блоков</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer fade-in">
+        <ul>
+            <li><a class="socials_footer" href="https://vk.com/id_asya_uzd" target="_blank">vk</a></li>
+            <li><a class="socials_footer" href="https://www.instagram.com/a.siri.s/" target="_blank">inst</a></li>
+            <li><a class="socials_footer" href="https://t.me/asya_uzdina" target="_blank">telegram</a></li>
+            <li><a class="socials_footer" href="tel: +79992391245">+7 (999) 239-12 45</a></li>
+            <li><a class="socials_footer" href="mailto:a-uzdina@yandex.ru" target="_blank">a-uzdina@yandex.ru</a></li>
+        </ul>
+        <img class="logo" src="Images/logo_light.svg" alt="logo">
+    </div>
+
+
+    <script src="observer.js"></script>
+</body>
+
+</html>
